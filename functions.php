@@ -98,6 +98,16 @@ add_theme_support( 'post-thumbnails' );
 
 
 //*****************************************************
+//******************** F O N T S **********************
+//*****************************************************
+
+wp_register_style( 'playfair_loadin', 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700' );
+wp_enqueue_style('playfair_loadin');
+
+wp_register_style( 'sourcesans_loadin', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700' );
+wp_enqueue_style('sourcesans_loadin');
+
+//*****************************************************
 //******************* PAGINATION **********************
 //*****************************************************
 
