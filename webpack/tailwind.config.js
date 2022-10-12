@@ -52,6 +52,7 @@ module.exports = {
       },
       peach: {
         DEFAULT: "#ef9273",
+        hover: "#e89f87",
       },
     },
   },
