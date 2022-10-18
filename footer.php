@@ -15,43 +15,22 @@
 ?>
 
 <!--Start Footer-->
-<footer class="footer">
-    <div class="footer-left">
+    <div class="bg-peach py-4"></div>
 
-        <!--Company Logo-->
-        <img src="https://images.squarespace-cdn.com/content/v1/575a6067b654f9b902f452f4/1552683653140-0UUVQSSUEWVC73AWAEQG/300Logo.png">
-        <div class="left-inner">
-            <!--Company Info-->
-            <h3>Fancy Company</h3>
-            <p class="phone-number">+1 234-567-8901</p>
+    <div class="bg-no-repeat bg-scroll bg-cover bg-silver">
+        <div class="mx-4 md:mx-10 lg:max-w-6xl lg:mx-auto py-10">
+            <div class="grid grid-cols-12 gap-4">
+                <div class="col-span-12 text-center">
+                    <h6 class="uppercase text-md font-bold text-black">Your website is officially out of your hands</h6>
+                    <a href="/contact" class="underline"> <p class="text-md font-bold  text-black">Schedule Your Free Consultation</p></a>
+                </div>
+
+                <div class="col-span-12 text-center">
+                    <i class="fa-brands fa-instagram text-3xl"></i>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="footer-right">
-        <div class="right-inner">
-            <!--Wordpress Generated Link Lists-->
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-1' ) ); ?>
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-2' ) ); ?>
-        </div>
-
-    </div>
-    <div class="footer-bottom">
-        <div class="bot-inner">
-
-            <!--Copyright Info-->
-            <p>Some Text</p>
-            <p>© <?php echo date("Y"); ?> Website Company Name</p>
-
-            <!--Socials, icons from: https://fontawesome.com/ -->
-            <div class="footer-icons">
-            <a href="#"><i class="fa fa-facebook" aria-label="Facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter" aria-label="Twitter"></i></a>
-            <a href="#"><i class="fa fa-instagram" aria-label="Instagram"></i></a>
-            <a href="#"><i class="fa fa-linkedin" aria-label="Linkedin"></i></a>
-            <a href="#"><i class="fa fa-youtube" aria-label="Youtube"></i></a>
-        </div>
-    </div>
-</footer>
 <!--End Footer-->
 
 
