@@ -19,7 +19,8 @@ get_header(); ?>
             ), url('<?php the_field('header_image') ?>') center center; background-repeat: no-repeat; background-size: cover;
             height: 60vh;">
         <div class="content-middle text-black text-center">
-            <h1 class="text-4xl mb-5">Plan your wedding, not your website.</h1>
+            <h2 class="text-2xl font-bold uppercase body-font">Big Day Design</h2>
+            <h1 class="text-4xl mb-7 px-2">Plan your wedding, not your website.</h1>
             <a href="/contact"
                class="bg-peach uppercase rounded-md font-bold shadow-lg text-black px-8 py-3 transition duration-300 ease-in-out hover:bg-peach-hover mt-10">
                 Start the Process
@@ -68,8 +69,7 @@ get_header(); ?>
                 <div class="col-span-12 md:col-span-6 md:ml-10 md:mt-5">
 
                     <div class="pb-5 font-bold">
-                        <h2 class="text-2xl text-left uppercase pb-3">Want an awesome website without the
-                            hassle?</h2>
+                        <h2 class="text-2xl text-left uppercase pb-3">Got big website plans and small time?</h2>
                         <ul class="list-disc pl-5">
                             <li>Creating a website will take up your limited time</li>
                             <li>You’d rather spend that time planning your wedding</li>
@@ -113,7 +113,7 @@ get_header(); ?>
                 <div class="col-span-12 md:col-span-4">
                     <div class="bg-peach rounded-t-xl shadow-xl">
                         <div class="text-center py-10">
-                            <i class="fa-regular fa-images text-6xl"></i>
+                            <i class="fa-solid fa-clock-rotate-left text-6xl"></i>
                         </div>
                     </div>
                     <div class="bg-tan rounded-b-xl shadow-xl frontpage-card">
@@ -128,7 +128,7 @@ get_header(); ?>
                 <div class="col-span-12 md:col-span-4">
                     <div class="bg-peach rounded-t-xl shadow-xl">
                         <div class="text-center py-10">
-                            <i class="fa-regular fa-images text-6xl"></i>
+                            <i class="fa-solid fa-list-check text-6xl"></i>
                         </div>
                     </div>
                     <div class="bg-tan rounded-b-xl shadow-xl frontpage-card">
@@ -156,7 +156,7 @@ get_header(); ?>
             rgba(0, 0, 0, 0.7)
             ), url('<?php the_field('pricing_image') ?>') center center;  background-repeat: no-repeat; background-size: cover;">
         <div class="mx-4 md:mx-10 lg:max-w-5xl lg:mx-auto py-20">
-            <div class="grid grid-cols-12 gap-10">
+            <div class="grid grid-cols-12 gap-4 md:gap-10">
                 <div class="col-span-12">
                     <h2 class="capitalize text-3xl font-bold text-center text-white pb-5">Simple, Upfront Pricing</h2>
                 </div>
@@ -226,7 +226,7 @@ get_header(); ?>
 
     <div class="bg-no-repeat bg-scroll bg-cover bg-silver">
         <div class="mx-4 md:mx-10 lg:max-w-5xl lg:mx-auto py-10">
-            <div class="grid grid-cols-12 gap-10">
+            <div class="grid grid-cols-12 gap-4 md:gap-10">
                 <div class="col-span-12">
                     <h2 class="capitalize text-3xl font-bold text-center text-black pb-5">Three Templates to Choose
                         From</h2>
@@ -267,7 +267,7 @@ get_header(); ?>
 
     <div class="bg-no-repeat bg-scroll bg-cover" style = "background-image: linear-gradient(#eae5df, #DFD4C7);">
         <div class="mx-4 md:mx-10 lg:max-w-2xl lg:mx-auto py-10">
-            <div class="grid grid-cols-12 gap-10">
+            <div class="grid grid-cols-12 gap-4 md:gap-10">
                 <div class="col-span-12">
                     <h2 class="capitalize text-3xl font-bold text-center text-black">This is The Easiest Process of Your Wedding</h2>
                 </div>
