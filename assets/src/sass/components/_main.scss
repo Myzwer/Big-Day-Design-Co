@@ -7,3 +7,19 @@ h3 {
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
+
+.body-font {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media screen and (min-width: 40em) {
+  .frontpage-card {
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .price-card {
+    height: 160px;
+  }
+}

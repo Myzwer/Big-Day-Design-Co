@@ -45,6 +45,7 @@ module.exports = {
       },
       tan: {
         DEFAULT: "#eae5df",
+        gradient: "#DFD4C7",
       },
       silver: {
         DEFAULT: "#bfbcbf",
