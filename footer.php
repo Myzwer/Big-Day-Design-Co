@@ -15,9 +15,9 @@
 ?>
 
 <!--Start Footer-->
-    <div class="bg-peach py-4"></div>
+    <div class="bg-purple-gradient py-4"></div>
 
-    <div class="bg-no-repeat bg-scroll bg-cover bg-silver">
+    <div class="bg-no-repeat bg-scroll bg-cover bg-blue-gradient">
         <div class="mx-4 md:mx-10 lg:max-w-6xl lg:mx-auto py-10">
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 text-center">

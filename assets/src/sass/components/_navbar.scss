@@ -15,11 +15,11 @@
 $content-width: 2000px; // How wide or narrow do you want the bar to be?
 $breakpoint: 1001px; // When do you want to switch from mobile to desktop?
 $nav-height: 70px; // How tall do you want the navbar to be?
-$nav-background: #eae5df; // What background color do you want?
+$nav-background: #b9c8e7; // What background color do you want?
 $nav-font-color: #333333; // What primary font color?
-$link-hover-color: #ef9273; // What color when you hover?
-$button-color: #ef9273; // What background color do you want the button to be?
-$button-hover-color: #e89f87; // What hover color do you want the button to be?
+$link-hover-color: #686aa8; // What color when you hover?
+$button-color: #686aa8; // What background color do you want the button to be?
+$button-hover-color: #5b5ead; // What hover color do you want the button to be?
 
 // Outer navigation wrapper
 .navigation {
@@ -227,12 +227,13 @@ nav {
 
 .nav-list > li:last-of-type a {
   background-color: rgba(0, 0, 0, 0);
-  color: #333333;
+  color: #eeeeee;
+  font-weight: 600;
 }
 
 .nav-list > li:last-of-type:hover a {
   background-color: rgba(0, 0, 0, 0);
-  color: #333333;
+  color: #eeeeee;
 }
 
 .nav-list > li:last-of-type:hover {

@@ -43,17 +43,21 @@ module.exports = {
       charcoal: {
         DEFAULT: "#333333",
       },
+      purple: {
+        DEFAULT: "#686aa8",
+        hover: "#5b5ead",
+      },
+      blue: {
+        DEFAULT: "#b9c8e7",
+        hover: "#93a9ce",
+      },
+      rose: {
+        DEFAULT: "#8a437d",
+        hover: "#752d67",
+      },
       tan: {
         DEFAULT: "#eae5df",
         gradient: "#DFD4C7",
-      },
-      silver: {
-        DEFAULT: "#bfbcbf",
-        dark: "#747884",
-      },
-      peach: {
-        DEFAULT: "#ef9273",
-        hover: "#e89f87",
       },
     },
   },
