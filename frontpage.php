@@ -88,63 +88,71 @@ get_header(); ?>
     </div>
 
     <div class="bg-rose-gradient text-white">
-        <div class="mx-4 md:mx-10 lg:max-w-5xl lg:mx-auto py-10">
-            <div class="grid grid-cols-12 gap-4">
-                <div class="col-span-12">
-                    <h2 class="capitalize text-3xl font-bold text-center text-white py-5">A perfect Wedding website made
-                        for you</h2>
-                </div>
-                <div class="col-span-12 md:col-span-4">
-                    <div class="bg-purple-gradient text-white rounded-t-xl shadow-xl">
-                        <div class="text-center py-10">
-                            <i class="fa-regular fa-images text-6xl"></i>
+        <div class="bg-no-repeat bg-scroll bg-cover relative" style="background: linear-gradient(
+                rgba(0, 0, 0, 0.0),
+                rgba(0, 0, 0, 0.0)
+                ), url('<?php the_field('waves_background') ?>') center center;  background-repeat: no-repeat; background-size: cover;">
+            <div class="mx-4 md:mx-10 lg:max-w-5xl lg:mx-auto py-10">
+                <div class="grid grid-cols-12 gap-4">
+                    <div class="col-span-12">
+                        <h2 class="capitalize text-3xl font-bold text-center text-white py-5">A perfect Wedding website
+                            made
+                            for you</h2>
+                    </div>
+                    <div class="col-span-12 md:col-span-4">
+                        <div class="bg-purple-gradient text-white rounded-t-xl shadow-xl">
+                            <div class="text-center py-10">
+                                <i class="fa-regular fa-images text-6xl"></i>
+                            </div>
+                        </div>
+                        <div class="bg-blue-gradient rounded-b-xl shadow-xl frontpage-card text-black">
+                            <div class="p-5">
+                                <h4 class="capitalize font-bold text-xl text-center">3 Templates to Choose from</h4>
+                                <p class="py-3">All templates are free for you to choose from, and you know exactly what
+                                    you’re getting
+                                    when you pick one!</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg-blue-gradient rounded-b-xl shadow-xl frontpage-card text-black">
-                        <div class="p-5">
-                            <h4 class="capitalize font-bold text-xl text-center">3 Templates to Choose from</h4>
-                            <p class="py-3">All templates are free for you to choose from, and you know exactly what
-                                you’re getting
-                                when you pick one!</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-span-12 md:col-span-4">
-                    <div class="bg-purple-gradient text-white rounded-t-xl shadow-xl">
-                        <div class="text-center py-10">
-                            <i class="fa-solid fa-clock-rotate-left text-6xl"></i>
+                    <div class="col-span-12 md:col-span-4">
+                        <div class="bg-purple-gradient text-white rounded-t-xl shadow-xl">
+                            <div class="text-center py-10">
+                                <i class="fa-solid fa-clock-rotate-left text-6xl"></i>
+                            </div>
+                        </div>
+                        <div class="bg-blue-gradient rounded-b-xl shadow-xl frontpage-card text-black">
+                            <div class="p-5">
+                                <h4 class="capitalize font-bold text-xl text-center">1 hour of your time</h4>
+                                <p class="py-3">My goal is to give you the best site possible for the minimum amount of
+                                    your
+                                    time. The whole process only takes an hour.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg-blue-gradient rounded-b-xl shadow-xl frontpage-card text-black">
-                        <div class="p-5">
-                            <h4 class="capitalize font-bold text-xl text-center">1 hour of your time</h4>
-                            <p class="py-3">My goal is to give you the best site possible for the minimum amount of your
-                                time. The whole process only takes an hour.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-span-12 md:col-span-4 text-charcoal">
-                    <div class="bg-purple-gradient text-white rounded-t-xl shadow-xl">
-                        <div class="text-center py-10">
-                            <i class="fa-solid fa-list-check text-6xl"></i>
+                    <div class="col-span-12 md:col-span-4 text-charcoal">
+                        <div class="bg-purple-gradient text-white rounded-t-xl shadow-xl">
+                            <div class="text-center py-10">
+                                <i class="fa-solid fa-list-check text-6xl"></i>
+                            </div>
+                        </div>
+                        <div class="bg-blue-gradient rounded-b-xl shadow-xl frontpage-card text-charcoal">
+                            <div class="p-5">
+                                <h4 class="capitalize font-bold text-xl text-center">Flexible Options</h4>
+                                <p class="py-3">Want bare bones? I’ve got it. Want RSVP functionality? Done. Want
+                                    somewhere
+                                    the fam can download wedding photos? Easy. Pick and choose what you like.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg-blue-gradient rounded-b-xl shadow-xl frontpage-card text-charcoal">
-                        <div class="p-5">
-                            <h4 class="capitalize font-bold text-xl text-center">Flexible Options</h4>
-                            <p class="py-3">Want bare bones? I’ve got it. Want RSVP functionality? Done. Want somewhere
-                                the fam can download wedding photos? Easy. Pick and choose what you like.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-span-12 text-center mt-10 mb-5">
-                    <a href="/contact"
-                       class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
-                        Start the Process
-                    </a>
+                    <div class="col-span-12 text-center mt-10 mb-5">
+                        <a href="/contact"
+                           class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
+                            Start the Process
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -266,44 +274,52 @@ get_header(); ?>
     </div>
 
     <div class="bg-rose-gradient text-white">
-        <div class="mx-4 md:mx-10 lg:max-w-2xl lg:mx-auto py-10">
-            <div class="grid grid-cols-12 gap-4 md:gap-10">
-                <div class="col-span-12">
-                    <h2 class="capitalize text-3xl font-bold text-center">This is The Easiest Process of Your Wedding</h2>
-                </div>
+        <div class="bg-no-repeat bg-scroll bg-cover relative" style="background: linear-gradient(
+                rgba(0, 0, 0, 0.0),
+                rgba(0, 0, 0, 0.0)
+                ), url('<?php the_field('waves_background') ?>') center center;  background-repeat: no-repeat; background-size: cover;">
+            <div class="mx-4 md:mx-10 lg:max-w-2xl lg:mx-auto py-10">
+                <div class="grid grid-cols-12 gap-4 md:gap-10">
+                    <div class="col-span-12">
+                        <h2 class="capitalize text-3xl font-bold text-center">This is The Easiest Process of Your
+                            Wedding</h2>
+                    </div>
 
-                <div class="col-span-12 md:col-span-6">
-                    <h3 class="capitalize text-3xl font-bold">1</h3>
-                    <h4 class="capitalize text-2xl font-bold">Get In Touch</h4>
-                    <p>Schedule a free consultation with me and we’ll get a time set up to meet.</p>
-                    <p class = "font-bold">YOUR time required: 5 Minutes</p>
-                </div>
-                <div class="col-span-12 md:col-span-6">
-                    <h3 class="capitalize text-3xl font-bold">2</h3>
-                    <h4 class="capitalize text-2xl font-bold">We'll Chat</h4>
-                    <p>We’ll hop on a zoom call and talk about what you need from your new website.</p>
-                    <p class = "font-bold">YOUR time required: 30 Minutes</p>
-                </div>
+                    <div class="col-span-12 md:col-span-6">
+                        <h3 class="capitalize text-3xl font-bold">1</h3>
+                        <h4 class="capitalize text-2xl font-bold">Get In Touch</h4>
+                        <p>Schedule a free consultation with me and we’ll get a time set up to meet.</p>
+                        <p class="font-bold">YOUR time required: 5 Minutes</p>
+                    </div>
+                    <div class="col-span-12 md:col-span-6">
+                        <h3 class="capitalize text-3xl font-bold">2</h3>
+                        <h4 class="capitalize text-2xl font-bold">We'll Chat</h4>
+                        <p>We’ll hop on a zoom call and talk about what you need from your new website.</p>
+                        <p class="font-bold">YOUR time required: 30 Minutes</p>
+                    </div>
 
-                <div class="col-span-12 md:col-span-6">
-                    <h3 class="capitalize text-3xl font-bold">3</h3>
-                    <h4 class="capitalize text-2xl font-bold">Fill out the form</h4>
-                    <p>Answer some fun questions about yourself and your future spouse to give me content for your site.</p>
-                    <p class = "font-bold">YOUR time required: 25 Minutes</p>
-                </div>
-                <div class="col-span-12 md:col-span-6">
-                    <h3 class="capitalize text-3xl font-bold">4</h3>
-                    <h4 class="capitalize text-2xl font-bold">Get your website!</h4>
-                    <p>I’ll spin up your site and send you a version for you to view and request edits, then send to all your guests!</p>
-                </div>
+                    <div class="col-span-12 md:col-span-6">
+                        <h3 class="capitalize text-3xl font-bold">3</h3>
+                        <h4 class="capitalize text-2xl font-bold">Fill out the form</h4>
+                        <p>Answer some fun questions about yourself and your future spouse to give me content for your
+                            site.</p>
+                        <p class="font-bold">YOUR time required: 25 Minutes</p>
+                    </div>
+                    <div class="col-span-12 md:col-span-6">
+                        <h3 class="capitalize text-3xl font-bold">4</h3>
+                        <h4 class="capitalize text-2xl font-bold">Get your website!</h4>
+                        <p>I’ll spin up your site and send you a version for you to view and request edits, then send to
+                            all your guests!</p>
+                    </div>
 
-                <div class="col-span-12">
-                    <h3 class="capitalize text-3xl font-bold text-center">Got an Hour to Spare?</h3>
-                    <div class="my-5 text-center">
-                        <a href="#"
-                           class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
-                            Start The Process
-                        </a>
+                    <div class="col-span-12">
+                        <h3 class="capitalize text-3xl font-bold text-center">Got an Hour to Spare?</h3>
+                        <div class="my-5 text-center">
+                            <a href="#"
+                               class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
+                                Start The Process
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
