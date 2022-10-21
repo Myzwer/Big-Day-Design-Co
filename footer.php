@@ -28,6 +28,10 @@
                 <div class="col-span-12 text-center">
                     <i class="fa-brands fa-instagram text-3xl"></i>
                 </div>
+
+                <div class="col-span-12 text-center">
+                    <h6 class="text-sm font-bold text-black"><a href="/privacy-policy">Privacy Policy</a></h6>
+                </div>
             </div>
         </div>
     </div>
