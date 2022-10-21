@@ -82,7 +82,7 @@ nav {
         text-decoration: none;
         &:hover {
           background: $link-hover-color;
-          color: $nav-font-color;
+          color: #eeeeee;
         }
         &:not(:only-child):after {
           content: " ▾";
