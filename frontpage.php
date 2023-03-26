@@ -13,18 +13,18 @@
 
 get_header(); ?>
 
-    <div class="bg-no-repeat bg-scroll bg-cover relative" style="background: linear-gradient(
-            rgba(0, 0, 0, 0.0),
-            rgba(0, 0, 0, 0.0)
-            ), url('<?php the_field('header_image') ?>') center center; background-repeat: no-repeat; background-size: cover;
-            height: 60vh;">
-        <div class="content-middle text-black text-center">
-            <h2 class="text-2xl font-bold uppercase body-font">Big Day Design</h2>
-            <h1 class="text-4xl mb-7 px-2">Plan your wedding, not your website.</h1>
-            <a href="/contact"
-               class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
-                Start the Process
-            </a>
+
+
+    <video class="header-video" src="<?php the_field('header_video') ?> " autoplay loop playsinline muted></video>
+
+    <div class="viewport-header">
+        <div class="head-container text-white">
+                <h2 class="text-2xl font-bold uppercase body-font">Big Day Design</h2>
+                <h1 class="text-4xl mb-7 px-2">Plan your wedding, not your website.</h1>
+                <a href="/contact"
+                   class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+                    Start the Process
+                </a>
         </div>
     </div>
 
@@ -59,7 +59,7 @@ get_header(); ?>
     </div>
 
     <div class="bg-blue-gradient text-black">
-        <div class="mx-4 md:mx-10 lg:max-w-5xl lg:mx-auto py-10">
+        <div class="mx-4 md:mx-10 lg:max-w-7xl lg:mx-auto py-10">
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 md:col-span-6">
                     <div class="text-center md:py-5 font-bold uppercase">
