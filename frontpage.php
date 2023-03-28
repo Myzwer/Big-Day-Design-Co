@@ -59,21 +59,24 @@ get_header(); ?>
     <div class="bg-blue-gradient text-black">
         <div class="mx-4 md:mx-10 lg:max-w-7xl lg:mx-auto py-10">
             <div class="grid grid-cols-12 gap-4">
+                <div class="col-span-12 text-center">
+                    <h2 class="text-3xl uppercase pb-3">Got <span class = "text-rose font-bold">big</span> website plans but <span class = "text-rose font-bold">small</span> time?</h2>
+                </div>
+
                 <div class="col-span-12 md:col-span-6">
                     <div class="text-center md:py-5 font-bold uppercase">
                         <img src="<?php the_field('template_image') ?> " alt="Template Images">
                     </div>
                 </div>
-                <div class="col-span-12 md:col-span-6 md:ml-10 md:mt-5">
-
+                <div class="col-span-12 md:col-span-6 md:ml-10 md:mt-20">
                     <div class="pb-5 font-bold">
-                        <h2 class="text-2xl text-left uppercase pb-3">Got big website plans and small time?</h2>
                         <ul class="list-disc pl-5">
-                            <li>Creating a website will take up your already limited time</li>
-                            <li>You’d rather spend that time planning your wedding</li>
-                            <li>in 2023, you need an effective, elegant website</li>
-                            <li>Doing it yourself is going to cost you hours</li>
-                            <li>All we need is 60 minutes of your time</li>
+                            <li>Don't waste hours making a wedding website yourself</li>
+                            <li>Get a custom website with all the bells and whistles</li>
+                            <li>Only spend an hour filling out a fun form</li>
+                            <li>Enjoy an informative, useful website without the hassle</li>
+                            <li>We handle the heavy lifting so you don't have to</li>
+                            <li>Say goodbye to boring code and hello to more free time with your Fiance</li>
                         </ul>
                     </div>
                     <a href="/contact"
