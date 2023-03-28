@@ -13,18 +13,16 @@
 
 get_header(); ?>
 
-
-
     <video class="header-video" src="<?php the_field('header_video') ?> " autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
         <div class="head-container text-white">
-                <h2 class="text-2xl font-bold uppercase body-font">Big Day Design</h2>
-                <h1 class="text-4xl mb-7 px-2">Plan your wedding, not your website.</h1>
-                <a href="/contact"
-                   class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
-                    Start the Process
-                </a>
+            <h2 class="text-2xl font-bold uppercase body-font">Big Day Design</h2>
+            <h1 class="text-4xl mb-7 px-2">Plan your wedding, not your website.</h1>
+            <a href="/contact"
+               class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+                Start the Process
+            </a>
         </div>
     </div>
 
@@ -71,11 +69,11 @@ get_header(); ?>
                     <div class="pb-5 font-bold">
                         <h2 class="text-2xl text-left uppercase pb-3">Got big website plans and small time?</h2>
                         <ul class="list-disc pl-5">
-                            <li>Creating a website will take up your limited time</li>
+                            <li>Creating a website will take up your already limited time</li>
                             <li>You’d rather spend that time planning your wedding</li>
-                            <li>You need an effective, elegant website</li>
+                            <li>in 2023, you need an effective, elegant website</li>
                             <li>Doing it yourself is going to cost you hours</li>
-                            <li>All I need is 60 minutes of your time</li>
+                            <li>All we need is 60 minutes of your time</li>
                         </ul>
                     </div>
                     <a href="/contact"
@@ -100,10 +98,10 @@ get_header(); ?>
                             for you</h2>
                     </div>
                     <div class="col-span-12 md:col-span-4">
-                        <div class="bg-purple-gradient text-white rounded-t-xl shadow-xl">
-                            <div class="text-center py-10">
-                                <i class="fa-regular fa-images text-6xl"></i>
-                            </div>
+                        <div class="bg-no-repeat bg-scroll bg-cover relative card-height rounded-t-xl" style="background: linear-gradient(
+                                rgba(0, 0, 0, 0.0),
+                                rgba(0, 0, 0, 0.0)
+                                ), url('<?php the_field('card_image_1') ?>') center center;  background-repeat: no-repeat; background-size: cover;">
                         </div>
                         <div class="bg-blue-gradient rounded-b-xl shadow-xl frontpage-card text-black">
                             <div class="p-5">
@@ -116,15 +114,15 @@ get_header(); ?>
                     </div>
 
                     <div class="col-span-12 md:col-span-4">
-                        <div class="bg-purple-gradient text-white rounded-t-xl shadow-xl">
-                            <div class="text-center py-10">
-                                <i class="fa-solid fa-clock-rotate-left text-6xl"></i>
-                            </div>
+                        <div class="bg-no-repeat bg-scroll bg-cover relative card-height rounded-t-xl" style="background: linear-gradient(
+                                rgba(0, 0, 0, 0.0),
+                                rgba(0, 0, 0, 0.0)
+                                ), url('<?php the_field('card_image_2') ?>') center center;  background-repeat: no-repeat; background-size: cover;">
                         </div>
                         <div class="bg-blue-gradient rounded-b-xl shadow-xl frontpage-card text-black">
                             <div class="p-5">
                                 <h4 class="capitalize font-bold text-xl text-center">1 hour of your time</h4>
-                                <p class="py-3">My goal is to give you the best site possible for the minimum amount of
+                                <p class="py-3">Our goal is to give you the best site possible for the minimum amount of
                                     your
                                     time. The whole process only takes an hour.</p>
                             </div>
@@ -132,17 +130,16 @@ get_header(); ?>
                     </div>
 
                     <div class="col-span-12 md:col-span-4 text-charcoal">
-                        <div class="bg-purple-gradient text-white rounded-t-xl shadow-xl">
-                            <div class="text-center py-10">
-                                <i class="fa-solid fa-list-check text-6xl"></i>
-                            </div>
+                        <div class="bg-no-repeat bg-scroll bg-cover relative card-height rounded-t-xl" style="background: linear-gradient(
+                                rgba(0, 0, 0, 0.0),
+                                rgba(0, 0, 0, 0.0)
+                                ), url('<?php the_field('card_image_3') ?>') center center;  background-repeat: no-repeat; background-size: cover;">
                         </div>
                         <div class="bg-blue-gradient rounded-b-xl shadow-xl frontpage-card text-charcoal">
                             <div class="p-5">
                                 <h4 class="capitalize font-bold text-xl text-center">Flexible Options</h4>
-                                <p class="py-3">Want bare bones? I’ve got it. Want RSVP functionality? Done. Want
-                                    somewhere
-                                    the fam can download wedding photos? Easy. Pick and choose what you like.</p>
+                                <p class="py-3">Want bare bones? We’ve got it. Want RSVP functionality? Done. Want
+                                    somewhere the fam can download wedding photos? Easy. Pick and choose what you like.</p>
                             </div>
                         </div>
                     </div>
@@ -233,7 +230,7 @@ get_header(); ?>
     </div>
 
     <div class="bg-blue-gradient bg-no-repeat bg-scroll bg-cover">
-        <div class="mx-4 md:mx-10 lg:max-w-5xl lg:mx-auto py-10">
+        <div class="mx-4 md:mx-10 lg:max-w-7xl lg:mx-auto py-10">
             <div class="grid grid-cols-12 gap-4 md:gap-10">
                 <div class="col-span-12">
                     <h2 class="capitalize text-3xl font-bold text-center pb-5 text-black">Three Templates to Choose
@@ -244,7 +241,7 @@ get_header(); ?>
                     <img class="rounded-lg shadow-lg" src="<?php the_field('template_1') ?>" alt="Template 1">
                     <div class="my-10 text-center">
                         <a href="#"
-                           class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
+                           class="border-2 border-rose uppercase rounded-md font-bold shadow-lg text-rose px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover hover:text-white">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
                         </a>
                     </div>
@@ -254,7 +251,7 @@ get_header(); ?>
                     <img class="rounded-lg shadow-lg" src="<?php the_field('template_2') ?>" alt="Template 2">
                     <div class="my-10 text-center">
                         <a href="#"
-                           class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
+                           class="border-2 border-rose uppercase rounded-md font-bold shadow-lg text-rose px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover hover:text-white">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
                         </a>
                     </div>
@@ -264,7 +261,7 @@ get_header(); ?>
                     <img class="rounded-lg shadow-lg" src="<?php the_field('template_3') ?>" alt="Template 3">
                     <div class="my-10 text-center">
                         <a href="#"
-                           class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
+                           class="border-2 border-rose uppercase rounded-md font-bold shadow-lg text-rose px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover hover:text-white">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
                         </a>
                     </div>
@@ -278,39 +275,31 @@ get_header(); ?>
                 rgba(0, 0, 0, 0.0),
                 rgba(0, 0, 0, 0.0)
                 ), url('<?php the_field('waves_background') ?>') center center;  background-repeat: no-repeat; background-size: cover;">
-            <div class="mx-4 md:mx-10 lg:max-w-2xl lg:mx-auto py-10">
+            <div class="mx-4 md:mx-10 lg:max-w-5xl lg:mx-auto py-10">
                 <div class="grid grid-cols-12 gap-4 md:gap-10">
                     <div class="col-span-12">
                         <h2 class="capitalize text-3xl font-bold text-center">This is The Easiest Process of Your
                             Wedding</h2>
                     </div>
 
-                    <div class="col-span-12 md:col-span-6">
+                    <div class="col-span-12 md:col-span-4">
                         <h3 class="capitalize text-3xl font-bold">1</h3>
-                        <h4 class="capitalize text-2xl font-bold">Get In Touch</h4>
-                        <p>Schedule a free consultation with me and we’ll get a time set up to meet.</p>
-                        <p class="font-bold">YOUR time required: 5 Minutes</p>
+                        <h4 class="capitalize text-2xl font-bold">Start the Process</h4>
+                        <p>We'll send you everything you need, including a fun form to fill out. We're also here to answer any questions you have.</p>
                     </div>
-                    <div class="col-span-12 md:col-span-6">
+                    <div class="col-span-12 md:col-span-4">
                         <h3 class="capitalize text-3xl font-bold">2</h3>
-                        <h4 class="capitalize text-2xl font-bold">We'll Chat</h4>
-                        <p>We’ll hop on a zoom call and talk about what you need from your new website.</p>
-                        <p class="font-bold">YOUR time required: 30 Minutes</p>
+                        <h4 class="capitalize text-2xl font-bold">Send us your Answers</h4>
+                        <p>Spend about an hour filling out the form, which gets us everything we need to make your site the best it can be.</p>
+
                     </div>
 
-                    <div class="col-span-12 md:col-span-6">
+                    <div class="col-span-12 md:col-span-4">
                         <h3 class="capitalize text-3xl font-bold">3</h3>
-                        <h4 class="capitalize text-2xl font-bold">Fill out the form</h4>
-                        <p>Answer some fun questions about yourself and your future spouse to give me content for your
-                            site.</p>
-                        <p class="font-bold">YOUR time required: 25 Minutes</p>
+                        <h4 class="capitalize text-2xl font-bold">Share your site</h4>
+                        <p>Within 2 weeks, you'll have a custom URL that links to your beautiful website to share with your guests!</p>
                     </div>
-                    <div class="col-span-12 md:col-span-6">
-                        <h3 class="capitalize text-3xl font-bold">4</h3>
-                        <h4 class="capitalize text-2xl font-bold">Get your website!</h4>
-                        <p>I’ll spin up your site and send you a version for you to view and request edits, then send to
-                            all your guests!</p>
-                    </div>
+
 
                     <div class="col-span-12">
                         <h3 class="capitalize text-3xl font-bold text-center">Got an Hour to Spare?</h3>
