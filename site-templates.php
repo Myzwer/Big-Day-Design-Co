@@ -74,11 +74,13 @@ get_header(); ?>
                         </div>
                         <div class="col-span-12 md:col-span-6 relative">
                             <div class="content-middle-medium">
-                                <h4 class="capitalize text-2xl font-bold">Template 1: Coffee</h4>
+                                <h4 class="capitalize text-2xl font-bold">Template 1: Veluthe</h4>
                                 <ul class="list-disc pl-5  mb-5">
-                                    <li>Minimalist design</li>
-                                    <li>Good for those who don’t have a lot of photos</li>
-                                    <li>Good for those who don’t want to say a lot</li>
+                                    <li>"Elegant"</li>
+                                    <li>All around simple site</li>
+                                    <li>No real design frills</li>
+                                    <li>Most straightforward design</li>
+                                    <li>Normal use of photos</li>
                                 </ul>
                                 <a href="#"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
@@ -101,11 +103,12 @@ get_header(); ?>
                         </div>
                         <div class="col-span-12 md:col-span-6 relative">
                             <div class="content-middle-medium">
-                                <h4 class="capitalize text-2xl font-bold">Template 1: Coffee</h4>
+                                <h4 class="capitalize text-2xl font-bold">Template 2: Alushor</h4>
                                 <ul class="list-disc pl-5  mb-5">
-                                    <li>Minimalist design</li>
-                                    <li>Good for those who don’t have a lot of photos</li>
-                                    <li>Good for those who don’t want to say a lot</li>
+                                    <li>"Waves"</li>
+                                    <li>Whimsical design</li>
+                                    <li>Features lots of waves and blobs</li>
+                                    <li>Heavier use of photos</li>
                                 </ul>
                                 <a href="#"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
@@ -130,9 +133,9 @@ get_header(); ?>
                             <div class="content-middle-medium">
                                 <h4 class="capitalize text-2xl font-bold">Template 3: Lersaat</h4>
                                 <ul class="list-disc pl-5 mb-5">
-                                    <li>Minimalist design</li>
-                                    <li>Good for those who don’t have a lot of photos</li>
-                                    <li>Good for those who don’t want to say a lot</li>
+                                    <li>"Split"</li>
+                                    <li>Cleanest layout</li>
+                                    <li>Photo heavy</li>
                                 </ul>
                                 <a href="#"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
