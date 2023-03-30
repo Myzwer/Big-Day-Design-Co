@@ -22,7 +22,7 @@
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 text-center">
                     <h6 class="uppercase text-md font-bold text-black">Your website is officially out of your hands</h6>
-                    <a href="/contact" class="underline"> <p class="text-md font-bold  text-black">Schedule Your Free Consultation</p></a>
+                    <a href="/contact" class="underline"> <p class="text-md font-bold  text-black">Start the Process</p></a>
                 </div>
 
                 <div class="col-span-12 text-center">
