@@ -43,7 +43,7 @@ get_header(); ?>
 
                                 <p>All 3 templates are available to you for free</p>
                                 <p>Pick and choose the pages you want</p>
-                                <p>Templates are custom for my clients, no one else has these</p>
+                                <p>Templates are custom for our clients, no one else has these</p>
 
                             </div>
                             <a href="/contact"
@@ -72,15 +72,17 @@ get_header(); ?>
                             <img src="<?php the_field('template_1') ?>"
                                  alt="Template 1">
                         </div>
-                        <div class="col-span-12 md:col-span-6 relative">
-                            <div class="content-middle-medium">
+                        <div class="col-span-12 lg:col-span-6 relative">
+                            <div class="content-middle-large">
                                 <h4 class="capitalize text-2xl font-bold">Template 1: Veluthe</h4>
                                 <ul class="list-disc pl-5  mb-5">
-                                    <li>"Elegant"</li>
-                                    <li>All around simple site</li>
-                                    <li>No real design frills</li>
-                                    <li>Most straightforward design</li>
-                                    <li>Normal use of photos</li>
+                                    <li>Means "Elegant"</li>
+                                    <li>Simple and straightforward design that's easy to navigate</li>
+                                    <li>Classic look and feel that's perfect for traditional weddings</li>
+                                    <li>Mobile-friendly design that looks great on all devices</li>
+                                    <li>Built with cutting edge web technology to ensure speed and reliability</li>
+                                    <li>Uses the least photos of all templates, good for those who don't have a lot of photos</li>
+                                    <li>Perfect for couples who want a clean, elegant, and timeless wedding website</li>
                                 </ul>
                                 <a href="#"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
@@ -101,14 +103,17 @@ get_header(); ?>
                             <img src="<?php the_field('template_2') ?>"
                                  alt="Template 1">
                         </div>
-                        <div class="col-span-12 md:col-span-6 relative">
-                            <div class="content-middle-medium">
+                        <div class="col-span-12 lg:col-span-6 relative">
+                            <div class="content-middle-large">
                                 <h4 class="capitalize text-2xl font-bold">Template 2: Alushor</h4>
                                 <ul class="list-disc pl-5  mb-5">
-                                    <li>"Waves"</li>
-                                    <li>Whimsical design</li>
-                                    <li>Features lots of waves and blobs</li>
-                                    <li>Heavier use of photos</li>
+                                    <li>Means "Waves"</li>
+                                    <li>Fun and whimsical design with a lot of personality</li>
+                                    <li>Unique and eye-catching blob-shaped images</li>
+                                    <li>Playful wavy sections that add movement and interest to the design</li>
+                                    <li>Built with cutting edge web technology to ensure speed and reliability</li>
+                                    <li>Uses plenty of photos across the site</li>
+                                    <li>Perfect for couples who want to showcase their fun and creative side</li>
                                 </ul>
                                 <a href="#"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
@@ -129,13 +134,17 @@ get_header(); ?>
                             <img src="<?php the_field('template_3') ?>"
                                  alt="Template 3">
                         </div>
-                        <div class="col-span-12 md:col-span-6 relative">
-                            <div class="content-middle-medium">
+                        <div class="col-span-12 lg:col-span-6 relative">
+                            <div class="content-middle-large">
                                 <h4 class="capitalize text-2xl font-bold">Template 3: Lersaat</h4>
                                 <ul class="list-disc pl-5 mb-5">
-                                    <li>"Split"</li>
-                                    <li>Cleanest layout</li>
-                                    <li>Photo heavy</li>
+                                    <li>Means "Split"</li>
+                                    <li>A modern and stylish design</li>
+                                    <li>Large images create a visually striking and engaging experience</li>
+                                    <li>Soft gradients add depth and dimension</li>
+                                    <li>Built with cutting edge web technology to ensure speed and reliability</li>
+                                    <li>The most photo heavy template of the bunch</li>
+                                    <li>Perfect for couples who want a chic, contemporary website that showcases their personality and style</li>
                                 </ul>
                                 <a href="#"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
@@ -154,7 +163,7 @@ get_header(); ?>
         <div class="mx-4 md:mx-10 lg:max-w-7xl lg:mx-auto py-10">
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 pb-10">
-                    <h2 class="capitalize text-3xl font-bold text-center">Picked a template? Why Stop there?</h2>
+                    <h2 class="capitalize text-3xl font-bold text-center">Picked a template? You have more options!</h2>
                 </div>
 
                 <div class="col-span-12 md:col-span-4">
@@ -163,7 +172,7 @@ get_header(); ?>
                         <li>Choice of any template</li>
                         <li>Wedding Color Palette</li>
                         <li>Custom URL</li>
-                        <li>website hosting until your wedding day</li>
+                        <li>Website hosting until your wedding day (up to 2 years)</li>
                     </ul>
                 </div>
 
@@ -179,7 +188,7 @@ get_header(); ?>
                         <li>Lodging</li>
                         <li>Schedule</li>
                         <li>Contact</li>
-                        <li>Registry Link</li>
+                        <li>Registry</li>
                     </ul>
                 </div>
 
@@ -190,10 +199,10 @@ get_header(); ?>
                             <ul class="list-disc pl-5">
                                 <li>Online RSVP</li>
                                 <li>Menu / Meal Preferences</li>
-                                <li>Email Invitations</li>
+                                <li>Email Confirmations</li>
                                 <li>Guest List Management</li>
-                                <li>Seating Chart Marker</li>
-                                <li>Guest Email Reminders</li>
+                                <li>Custom Questions</li>
+                                <li>Easy Export for Thank You Notes</li>
                             </ul>
                         </li>
                     </ul>
@@ -201,8 +210,8 @@ get_header(); ?>
                         <li>Wedding Photo Downloads
                             <ul class="list-disc pl-5">
                                 <li>Goes live after wedding</li>
-                                <li>lets your guests download full resolution photos</li>
-                                <li>Easier for guests than dropbox, Drive, etc</li>
+                                <li>Lets your guests easily download your wedding photos</li>
+                                <li>Avoid teaching relatives how to use Dropbox, Drive or something else that needs an app to use</li>
                             </ul>
                         </li>
                     </ul>
