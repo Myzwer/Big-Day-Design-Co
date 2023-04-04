@@ -79,6 +79,7 @@ get_header(); ?>
                             <li>Don't waste hours making a wedding website yourself</li>
                             <li>Get a custom website with all the bells and whistles</li>
                             <li>Only spend an hour filling out a fun form</li>
+                            <li>We send you back a completed website</li>
                             <li>Enjoy an informative, useful website without the hassle</li>
                             <li>We handle the heavy lifting so you don't have to</li>
                             <li>Say goodbye to boring code and hello to more free time with your Fiance</li>
