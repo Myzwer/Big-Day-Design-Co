@@ -22,7 +22,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="bg-purple-gradient">
+    <div class="bg-blue-gradient">
         <div class="grid grid-cols-12 gap-4 py-8 max-w-6xl text-center mx-auto">
             <div class="col-span-12 bg-rose-gradient text-white rounded-xl shadow-xl mx-5">
                 <h2 class="text-5xl text-left uppercase pb-3 font-bold text-center pt-5 px-2">$750</h2>
@@ -69,7 +69,7 @@ get_header(); ?>
             </div>
 
 
-            <div class="col-span-12 lg:col-span-6 bg-blue-gradient rounded-xl shadow-xl relative mx-5">
+            <div class="col-span-12 lg:col-span-6 bg-purple-gradient text-white rounded-xl shadow-xl relative mx-5">
                 <h2 class="text-5xl text-left uppercase pb-3 font-bold text-center pt-5 px-2">+$250</h2>
                 <p class="text-2xl text-left uppercase text-center body-font font-bold mb-5">RSVP Feature</p>
                 <hr class="mx-5">
@@ -86,14 +86,14 @@ get_header(); ?>
 
                     <div class="text-center my-10">
                         <a href="/add-ons"
-                           class="border-2 border-rose uppercase rounded-md font-bold text-rose px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover hover:text-white">
+                           class="border-2 border-white uppercase rounded-md font-bold text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover hover:text-white">
                             Show Me
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-span-12 lg:col-span-6 bg-blue-gradient rounded-xl shadow-xl relative mx-5">
+            <div class="col-span-12 lg:col-span-6 bg-purple-gradient text-white rounded-xl shadow-xl relative mx-5">
                 <h2 class="text-5xl text-left uppercase pb-3 font-bold text-center pt-5 px-2">+$250</h2>
                 <p class="text-2xl text-left uppercase text-center body-font font-bold mb-5">Photo Downloader</p>
                 <hr class="mx-5">
@@ -110,7 +110,7 @@ get_header(); ?>
 
                     <div class="text-center my-10">
                         <a href="/add-ons"
-                           class="border-2 border-rose uppercase rounded-md font-bold text-rose px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover hover:text-white">
+                           class="border-2 border-white uppercase rounded-md font-bold text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover hover:text-white">
                             Show Me
                         </a>
                     </div>
