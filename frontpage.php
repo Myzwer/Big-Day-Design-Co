@@ -59,8 +59,22 @@ get_header(); ?>
     </div>
     <!-- End Hero Tags -->
 
+    <!-- Start Hero Tags -->
+    <div class="bg-rose text-white">
+        <div class="grid grid-cols-12 py-10">
+            <div class="col-span-12 text-center">
+                <h4 class="text-2xl pb-3 font-bold md:inline md:pr-5">Want a chance at a free wedding website? </h4>
+                <a href="/promo"
+                   class="md: inline bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+                    Enter Now!
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End Hero Tags -->
+
     <!-- Start Value Proposition -->
-    <div class="bg-blue-gradient text-black">
+    <div class="bg-blue-gradient text-black md:px-10">
         <div class="mx-4 md:mx-10 lg:max-w-7xl lg:mx-auto py-10">
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 text-center">
@@ -146,7 +160,7 @@ get_header(); ?>
     <!-- End Process -->
 
     <!-- Start Features -->
-    <div class="bg-blue-gradient text-black">
+    <div class="bg-blue-gradient text-black md:px-10">
         <div class="mx-4 md:mx-10 lg:max-w-7xl lg:mx-auto py-10 md:py-20">
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 md:col-span-3">
@@ -207,7 +221,7 @@ get_header(); ?>
     <!-- End Features -->
 
 
-    <div class="bg-purple-gradient bg-no-repeat bg-scroll bg-cover">
+    <div class="bg-purple-gradient md:px-10">
         <div class="mx-4 md:mx-10 lg:max-w-7xl lg:mx-auto py-10">
             <div class="grid grid-cols-12 gap-4 md:gap-10">
                 <div class="col-span-12">
@@ -289,10 +303,10 @@ get_header(); ?>
                             use Big Day Design?</h5>
                         <p>While services like The Knot and Squarespace are affordable, they often require a significant
                             time investment from you. You'll need to figure out how to use the platform, design your
-                            site, optimize images, set up RSVPs, and more. With Big Day Design, we handle all of that
-                            for you, so you can focus on other aspects of your wedding planning. Plus, you'll get a
-                            custom website URL that's easy to remember and looks great on your invitations and
-                            save-the-dates.</p>
+                            site, write bios and other text, optimize images, set up RSVPs, and more. With Big Day
+                            Design, we handle all of that for you, so you can focus on other aspects of your wedding
+                            planning. Plus, you'll get a custom website URL that's easy to remember and looks great on
+                            your invitations and save-the-dates.</p>
                     </div>
 
                     <hr>
@@ -312,7 +326,7 @@ get_header(); ?>
                         <h5 class="uppercase font-bold text-xl">How long does it take to get my site?</h5>
                         <p>Once you sign a contract with us and fill out our form, we'll get to work on your site right
                             away. Our standard turnaround time is about 2 weeks from the time we receive your completed
-                            form. For more details on our process, you can check out our <a href="/the-process" class = "underline">process page.</a></p>
+                            form.
                     </div>
                 </div>
             </div>
