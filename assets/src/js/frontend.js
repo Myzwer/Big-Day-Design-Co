@@ -25,3 +25,54 @@ import "../sass/frontend.scss";
     });
   }); // end DOM ready
 })(jQuery); // end jQuery
+
+// Set the date we're counting down to
+const countDownDate = new Date("June 1, 2023 00:00:00").getTime();
+
+// Update the countdown every 1 second
+var x = setInterval(function () {
+  // Get the current date and time
+  const now = new Date().getTime();
+
+  // Calculate the time remaining between now and the countdown date
+  const timeRemaining = countDownDate - now;
+
+  // Calculate days, hours, minutes, and seconds
+  const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(
+    (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+  // Update the HTML with the new values, if the elements exist
+  if (document.getElementById("days")) {
+    document.getElementById("days").innerHTML = days;
+  }
+  if (document.getElementById("hours")) {
+    document.getElementById("hours").innerHTML = hours;
+  }
+  if (document.getElementById("minutes")) {
+    document.getElementById("minutes").innerHTML = minutes;
+  }
+  if (document.getElementById("seconds")) {
+    document.getElementById("seconds").innerHTML = seconds;
+  }
+
+  // If the countdown is over, display a message
+  if (timeRemaining < 0) {
+    clearInterval(x);
+    if (document.getElementById("days")) {
+      document.getElementById("days").innerHTML = "EXPIRED";
+    }
+    if (document.getElementById("hours")) {
+      document.getElementById("hours").innerHTML = "EXPIRED";
+    }
+    if (document.getElementById("minutes")) {
+      document.getElementById("minutes").innerHTML = "EXPIRED";
+    }
+    if (document.getElementById("seconds")) {
+      document.getElementById("seconds").innerHTML = "EXPIRED";
+    }
+  }
+}, 1000);
