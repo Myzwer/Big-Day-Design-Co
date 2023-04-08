@@ -17,6 +17,22 @@
   display: none;
 }
 
+.ginput_container .ginput_container_date input {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gfield_consent_label {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.gform_wrapper.gravity-theme .gfield_consent_description {
+  border: 0 !important;
+  margin-top: 0 !important;
+}
+
 .gform_body input {
   background-color: #eeeeee;
   border-radius: 8px;
@@ -83,5 +99,11 @@
 
   strong {
     font-weight: 800;
+  }
+}
+
+.wysiwyg {
+  li {
+    padding-bottom: 10px;
   }
 }
