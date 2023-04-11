@@ -21,67 +21,70 @@ if (is_home()) {
 }
 ?>
 
-    <div class="bg-no-repeat bg-scroll bg-cover relative" style="background: linear-gradient(
-            rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)
-            ), url('<?php the_field('blog_header', $post_id) ?>') center center; background-repeat: no-repeat; background-size: cover;
-            height: 60vh;">
-        <div class="content-middle text-white text-center">
-            <h1 class="text-4xl mb-5">Big Day Blog</h1>
+    <div class="bg-rose-gradient">
+        <div class="bg-no-repeat bg-scroll bg-cover relative" style="background: linear-gradient(
+                rgba(0, 0, 0, 0.0),
+                rgba(0, 0, 0, 0.0)
+                ), url('<?php the_field('blog_header', $post_id) ?>') center center;  background-repeat: no-repeat; background-size: cover;">
+
+            <?php
+            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; // Get the current page number
+            $posts_query = new WP_Query(array(
+                'posts_per_page' => 1,
+                'paged' => $paged // Pass the current page number to the query
+            ));
+            while ($posts_query->have_posts()) : $posts_query->the_post();
+                if ($paged === 1) { // Only display the featured post on the first page
+                    ?>
+                    <div class="lg:max-w-5xl lg:text-center lg:mx-auto py-5 md:py-20 px-5">
+                        <div class="grid grid-cols-12 text-black shadow-xl rounded-xl ">
+                            <div class="col-span-12 lg:col-span-7 rounded-xl">
+                                <div class="bg-no-repeat bg-scroll bg-cover relative featured-background "
+                                     style="background: linear-gradient(
+                                             rgba(0, 0, 0, 0.0),
+                                             rgba(0, 0, 0, 0.0)
+                                             ), url('<?php the_post_thumbnail_url(); ?>') center center;  background-repeat: no-repeat; background-size: cover;">
+                                </div>
+                            </div>
+
+                            <div class="col-span-12 lg:col-span-5 text-left relative bg-blue featured-card">
+                                <div class="content-middle-card px-5 py-10">
+                                    <h6 class="">
+                                        <span class="font-bold">Latest Post</span> - <span
+                                                class="opacity-60"> <?php echo get_the_date(); ?> </span>
+                                    </h6>
+
+                                    <h2 class="text-3xl font-bold capitalize"><?php echo '<a href="' . get_permalink() . '">' . get_the_title() . '</a>'; ?></h2>
+
+                                    <a href="<?php echo get_permalink(); ?>">
+                                        <button class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover my-4">
+                                            Read More
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <?php } else {
+                    ?>
+                    <div class="lg:max-w-5xl lg:text-center lg:mx-auto py-5 md:py-20 px-5">
+                        <div class="text-white">
+                            <h1 class="text-4xl mb-7 px-2">Older Posts</h1>
+                        </div>
+                    </div>
+                    <?php
+                }
+            endwhile;
+            wp_reset_query();
+            ?>
         </div>
     </div>
 
 
-    <!-- Featured Post -->
     <div class="bg-blue">
-        <div class="grid grid-cols-12 pt-10">
-<!--            <div class="col-span-12 text-center mx-auto">
-                <h3 class="text-2xl md:text-3xl mb-3 font-bold">Latest Post</h3>
-            </div>-->
-        </div>
-
-        <div class="lg:max-w-6xl lg:text-center lg:mx-auto pt-10">
-            <div class="grid grid-cols-12 gap-4 text-black bg-white shadow-xl rounded-xl featured-card">
-                <?php
-                $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; // Get the current page number
-                $posts_query = new WP_Query(array(
-                    'posts_per_page' => 1,
-                    'paged' => $paged // Pass the current page number to the query
-                ));
-                while ($posts_query->have_posts()) : $posts_query->the_post();
-                    if ($paged === 1) { // Only display the featured post on the first page
-                        ?>
-                        <div class="col-span-12 lg:col-span-7 rounded-xl">
-                            <?php the_post_thumbnail(); ?>
-                        </div>
-
-                        <div class="col-span-12 lg:col-span-5 text-left p-3 relative">
-                            <div class="content-middle-medium">
-                                <h6 class="">
-                                    <span class="font-bold">Category</span> - <span
-                                            class="opacity-60"> <?php echo get_the_date(); ?> </span>
-                                </h6>
-
-                                <h2 class="text-3xl font-bold capitalize"><?php echo '<a href="' . get_permalink() . '">' . get_the_title() . '</a>'; ?></h2>
-                                <?php the_excerpt('<p class = "blog-excerpt">', '</p>'); ?>
-
-                                <a href="<?php echo get_permalink(); ?>">
-                                    <button class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover my-4">
-                                        Read More
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                    <?php }
-                endwhile;
-                wp_reset_query();
-                ?>
-            </div>
-
-            <!-- All Other Posts -->
-            <div class="grid grid-cols-12 gap-4 mt-6">
-                <div class="col-span-12 text-center mx-auto">
-                </div>
+        <div class="lg:max-w-5xl lg:text-center lg:mx-auto py-5 px-5">
+            <div class="grid grid-cols-12 gap-4 mt-6 mb-5">
                 <?php
                 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                 $per_page = 10; // How many posts do you want per page?
@@ -107,16 +110,14 @@ if (is_home()) {
                     $loop->the_post();
                     ?>
 
-                    <div class="col-span-12 md:col-span-6 bg-white text-black blog-card rounded-xl shadow-xl">
+                    <div class="col-span-12 md:col-span-4 text-black blog-card mb-10">
                         <?php the_post_thumbnail(); ?>
-                        <div class="p-4 text-left">
-                            <h6 class=""><span class="font-bold">Category</span> - <span
-                                        class="opacity-60"> <?php echo get_the_date(); ?> </span>
+                        <div class="pt-4 text-left">
+                            <h6 class=""><span class="opacity-60"> <?php echo get_the_date(); ?> </span>
                             </h6>
                             <h2 class="text-2xl font-bold capitalize"><?php echo '<a href="' . get_permalink() . '">' . get_the_title() . '</a>'; ?></h2>
-                            <?php the_excerpt('<p class = "blog-excerpt">', '</p>'); ?>
                             <a href="<?php echo get_permalink(); ?>">
-                                <button class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-4">
+                                <button class="border-2 border-rose uppercase rounded-md font-bold shadow-lg text-rose px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover hover:text-white mt-4">
                                     Read More
                                 </button>
                             </a>
@@ -125,10 +126,16 @@ if (is_home()) {
 
                 <?php endwhile; ?>
             </div>
-            <div class="pb-10">
-            <?php wpbeginner_numeric_posts_nav(); ?>
-            </div>
-
+            <?php
+            // Check if there are more than one page of posts
+            if ($loop->max_num_pages > 1) {
+                ?>
+                <div class="pb-10">
+                    <?php wpbeginner_numeric_posts_nav(); ?>
+                </div>
+                <?php
+            }
+            ?>
         </div>
     </div>
 
