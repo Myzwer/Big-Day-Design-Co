@@ -48,10 +48,10 @@ get_header(); ?>
                                     <li>Admin portal to view RSVP list and manage guest count</li>
                                     <li>Export or print RSVP list for vendors or thank you notes</li>
                                 </ul>
-                                <a href="#"
+                               <!-- <a href="#"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
-                                </a>
+                                </a>-->
                             </div>
                         </div>
                     </div>

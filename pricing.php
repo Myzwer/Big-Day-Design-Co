@@ -25,7 +25,7 @@ get_header(); ?>
     <div class="bg-blue-gradient">
         <div class="grid grid-cols-12 gap-4 py-8 max-w-6xl text-center mx-auto">
             <div class="col-span-12 bg-rose-gradient text-white rounded-xl shadow-xl mx-5">
-                <h2 class="text-5xl text-left uppercase pb-3 font-bold text-center pt-5 px-2">$750</h2>
+                <h2 class="text-5xl text-left uppercase pb-3 font-bold text-center pt-5 px-2">$500</h2>
                 <p class="text-2xl text-left uppercase text-center body-font font-bold mb-5">That's it. No hidden
                     fees.</p>
                 <hr class="mx-5">
