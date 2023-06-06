@@ -96,6 +96,12 @@ add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 999 );
 		 */
 add_theme_support( 'post-thumbnails' );
 
+// Add options page
+if( function_exists('acf_add_options_page') ) {
+
+    acf_add_options_page();
+
+}
 
 //*****************************************************
 //******************** F O N T S **********************
