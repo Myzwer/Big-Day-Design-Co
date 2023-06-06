@@ -235,7 +235,7 @@ get_header(); ?>
                     <img class="rounded-lg shadow-lg" src="<?php the_field('template_1') ?>" alt="Template 1">
                     <div class="my-5 text-center">
                         <h4 class="text-center text-white text-lg pb-5 capitalize">Template 1: Veluthe</h4>
-                        <a href="#"
+                        <a href="<?php the_field('template_1', 'option'); ?>" target="_blank"
                            class="border-2 border-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
                         </a>
@@ -246,7 +246,7 @@ get_header(); ?>
                     <img class="rounded-lg shadow-lg" src="<?php the_field('template_2') ?>" alt="Template 2">
                     <div class="my-5 text-center">
                         <h4 class="text-center text-white text-lg pb-5 capitalize">Template 2: Alushor</h4>
-                        <a href="#"
+                        <a href="<?php the_field('template_2', 'option'); ?>" target="_blank"
                            class="border-2 border-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
                         </a>
@@ -257,7 +257,7 @@ get_header(); ?>
                     <img class="rounded-lg shadow-lg" src="<?php the_field('template_3') ?>" alt="Template 3">
                     <div class="my-5 text-center">
                         <h4 class="text-center text-white text-lg pb-5 capitalize">Template 3: Lersaat</h4>
-                        <a href="#"
+                        <a href="<?php the_field('template_3', 'option'); ?>" target="_blank"
                            class="border-2 border-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
                         </a>
@@ -268,7 +268,7 @@ get_header(); ?>
                     <h3 class="capitalize text-2xl font-bold text-center text-white">Picked your favorite? Tell us about
                         it.</h3>
                     <div class="my-5 text-center">
-                        <a href="#"
+                        <a href="/process"
                            class="bg-rose uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-rose-hover">
                             Start The Process
                         </a>

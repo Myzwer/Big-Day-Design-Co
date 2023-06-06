@@ -84,7 +84,7 @@ get_header(); ?>
                                     <li>Uses the least photos of all templates, good for those who don't have a lot of photos</li>
                                     <li>Perfect for couples who want a clean, elegant, and timeless wedding website</li>
                                 </ul>
-                                <a href="https://fairbankfairytale.com/"
+                                <a href="<?php the_field('template_1', 'option'); ?>"
                                    target="_blank"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
@@ -116,7 +116,7 @@ get_header(); ?>
                                     <li>Uses plenty of photos across the site</li>
                                     <li>Perfect for couples who want to showcase their fun and creative side</li>
                                 </ul>
-                                <a href="http://foreverafairbank.com/"
+                                <a href="<?php the_field('template_2', 'option'); ?>"
                                    target="_blank"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
@@ -148,7 +148,7 @@ get_header(); ?>
                                     <li>The most photo heavy template of the bunch</li>
                                     <li>Perfect for couples who want a chic, contemporary website that showcases their personality and style</li>
                                 </ul>
-                                <a href="https://finallyafairbank.com/"
+                                <a href="<?php the_field('template_3', 'option'); ?>"
                                    target="_blank"
                                    class="bg-purple uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover">
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo Site
