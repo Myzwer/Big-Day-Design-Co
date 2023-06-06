@@ -26,7 +26,9 @@
                 </div>
 
                 <div class="col-span-12 text-center">
+                    <a href="<?php the_field('instagram', 'option'); ?>" target="_blank">
                     <i class="fa-brands fa-instagram text-3xl"></i>
+                    </a>
                 </div>
 
                 <div class="col-span-12 text-center">
