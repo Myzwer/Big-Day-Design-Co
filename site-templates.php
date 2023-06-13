@@ -62,7 +62,7 @@ get_header(); ?>
         <div class="mx-4 md:mx-10 lg:max-w-5xl lg:mx-auto py-10">
             <div class="grid grid-cols-12 gap-4 md:gap-10">
                 <div class="col-span-12">
-                    <h2 class="capitalize text-3xl font-bold text-center">Imagine your guests reaction to your
+                    <h2 class="capitalize text-3xl font-bold text-center">Imagine your guest's reaction to your
                         site</h2>
                 </div>
 
