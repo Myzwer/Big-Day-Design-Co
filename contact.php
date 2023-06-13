@@ -18,7 +18,7 @@ get_header(); ?>
             ), url('<?php the_field('header_image') ?>') center center; background-repeat: no-repeat; background-size: cover;
             height: 60vh;">
         <div class="content-middle text-white text-center">
-            <h1 class="text-4xl mb-7 px-2">You plan happily ever after. We've got it from here.</h1>
+            <h1 class="text-4xl mb-7 px-2"><?php the_field('title') ?></h1>
         </div>
     </div>
 
@@ -26,10 +26,8 @@ get_header(); ?>
         <div class="mx-4 md:mx-10 lg:max-w-3xl lg:mx-auto py-10">
             <div class="grid grid-cols-12 gap-4 md:gap-10">
                 <div class="col-span-12">
-                    <h2 class="capitalize text-3xl font-bold text-center pb-2">Start the Process.</h2>
-                    <p class="text-xl font-bold text-center">Ready to get started? Let's connect and bring your wedding
-                        site to life! Fill out our contact form and we'll send you all the details. No commitments
-                        required, just the information you need to take the first step.</p>
+                    <h2 class="capitalize text-3xl font-bold text-center pb-2"><?php the_field('subtitle') ?></h2>
+                    <p class="text-xl font-bold text-center"><?php the_field('paragraph') ?></p>
                 </div>
 
                 <div class="col-span-12">
