@@ -36,6 +36,7 @@ $button-hover-color: #5b5ead; // What hover color do you want the button to be?
   padding-left: 20px;
   position: absolute;
   text-transform: uppercase;
+  z-index: 15;
   a,
   a:visited {
     color: $nav-font-color;
